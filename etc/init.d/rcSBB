@@ -44,4 +44,6 @@ mknod -m 0777 /tmp/usbdevmon125788 p
 source /root/modules/load_modules.sh
 cd /root
 AXE_API_TYPE=linuxdvb ./main_axe.out < /dev/null > /dev/null &
+/sbin/smbd -D
+/sbin/nmbd -D
 echo 'ok'
