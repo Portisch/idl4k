@@ -40,7 +40,8 @@ route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0
 mkdir -p /mnt/data
 mount -t jffs2 /dev/mtdblock4 /mnt/data/
 mkdir -p /mnt/ramdisk
-mount -t tmpfs tmpfs /mnt/ramdisk -o size=6M
+#mount -t tmpfs tmpfs /mnt/ramdisk -o size=6M
+mount -t tmpfs tmpfs /mnt/ramdisk
 mkdir /media
 ####
 #### start axestartup
