@@ -10,6 +10,11 @@ cp -a /dev/* /tmp
 chmod $(stat -c %a /dev) /tmp
 chown $(stat -c %u:%g /dev) /tmp
 mount --move /tmp /dev
+mknod /dev/ttyUSB0 c 188 0
+mknod /dev/ttyUSB1 c 188 0
+mknod /dev/ttyUSB2 c 188 0
+mknod /dev/ttyUSB3 c 188 0
+mount -t usbfs none /proc/bus/usb
 #### mount devpts to allow logging in
 mount -t devpts none /dev/pts -o gid=5,mode=620
 #### mount & configure /tmp

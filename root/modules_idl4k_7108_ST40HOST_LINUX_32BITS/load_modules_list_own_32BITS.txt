@@ -1,0 +1,9 @@
+###########################################################
+## File containing list of modules to load in the system ##
+###########################################################
+##
+## Syntax is :
+## Mode (29BITS|32BITS|-) | Module file | Node name | Parameters
+-                            usbserial.ko    -           -
+-                            ftdi_sio.ko     -           -
+-                            pl2303.ko       -           -

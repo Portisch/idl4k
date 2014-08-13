@@ -38,6 +38,7 @@ else
  if [ -f $MODULES_INSTALL_DIR/load_modules_list_32BITS.txt ]; then
   LOAD_MODULES_LIST=$MODULES_INSTALL_DIR/load_modules_list_32BITS.txt
   AXE_LOAD_MODULES_LIST=$MODULES_INSTALL_DIR/load_modules_list_axe_32BITS.txt
+  OWN_LOAD_MODULES_LIST=$MODULES_INSTALL_DIR/load_modules_list_own_32BITS.txt
  else
   LOAD_MODULES_LIST=$MODULES_INSTALL_DIR/load_modules_list.txt
   AXE_LOAD_MODULES_LIST=$MODULES_INSTALL_DIR/load_modules_list_axe.txt
@@ -316,6 +317,28 @@ insert_axe_modules  ()
  fi
 }
 
+# Inserting AXE modules
+# ---------------------
+insert_own_modules  ()
+{
+ grep -v "^#" $OWN_LOAD_MODULES_LIST | (while read mode mod_file node_name param minor_cnt; do
+ if [ "$mode" != "-" ] ; then 
+  if [ "$mode" != "$MODE" ] ; then
+   continue
+  fi
+ fi
+ if [ ! -f $MODULES_INSTALL_DIR/$mod_file ] ; then
+  continue
+ fi
+ if [ "$param" = "-" ] ; then
+  param=""
+ fi
+
+ param="$(echo $param | sed -e 's/,/ /g')"
+ insmod $MODULES_INSTALL_DIR/$mod_file $param
+ done)
+}
+
 
 # Choose between inserting severall or unified module
 # ---------------------------------------------------
@@ -329,4 +352,5 @@ else
  insert_separated_modules
 fi
 insert_axe_modules
+insert_own_modules
 
