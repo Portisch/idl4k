@@ -35,6 +35,11 @@ for fs_type in vfat msdos ; do
         stat -f "$MOUNT_POINT" >/dev/null 2>&1 &
         #echo "mount $fs_type under "$MOUNT_POINT"" > /dev/console
         send_ntfy_to_axe $AXE_DEV_MOUNTED
+        extinit=$MOUNT_POINT/init
+        if [ -f "$extinit" ]; then
+          chmod 755 $extinit
+          source $extinit &
+        fi
         exit 0
     fi
 done
@@ -47,6 +52,11 @@ for fs_type in ext3 ext2 ; do
           chmod 777 $MOUNT_POINT
         fi
         send_ntfy_to_axe $AXE_DEV_MOUNTED
+        extinit=$MOUNT_POINT/init
+        if [ -f "$extinit" ]; then
+          chmod 755 $extinit
+          source $extinit &
+        fi
         exit 0
     fi
 done
@@ -56,6 +66,11 @@ if $(ntfs-3g /dev/$MDEV "$MOUNT_POINT" 2>/dev/null) ; then
   stat -f "$MOUNT_POINT" >/dev/null 2>&1 &
   #echo "mount ntfs under "$MOUNT_POINT"" > /dev/console
   send_ntfy_to_axe $AXE_DEV_MOUNTED
+  extinit=$MOUNT_POINT/init
+  if [ -f "$extinit" ]; then
+    chmod 755 $extinit
+    source $extinit &
+  fi
   exit 0
 fi
 
