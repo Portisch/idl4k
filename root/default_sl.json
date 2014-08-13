@@ -1,0 +1,1907 @@
+[
+{
+ "id": 1,
+ "name": "Das Erste HD",
+ "sid": 10301,
+ "pmt": 5100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11494,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5100,5101,5102,5103,5106]
+},
+{
+ "id": 2,
+ "name": "Das Erste",
+ "sid": 28106,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11837,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,100,101,102,103,106]
+},
+{
+ "id": 3,
+ "name": "ZDF HD",
+ "sid": 11110,
+ "pmt": 6100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11362,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6100,6110,6120,6121,6123,6122]
+},
+{
+ "id": 4,
+ "name": "ZDF",
+ "sid": 28006,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,100,110,120,121,125,130]
+},
+{
+ "id": 5,
+ "name": "RTL Television",
+ "sid": 12003,
+ "pmt": 44,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,44,163,104,106]
+},
+{
+ "id": 6,
+ "name": "RTL 2",
+ "sid": 12020,
+ "pmt": 46,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,46,166,128]
+},
+{
+ "id": 7,
+ "name": "SUPER RTL",
+ "sid": 12040,
+ "pmt": 45,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,45,165,120]
+},
+{
+ "id": 8,
+ "name": "RTLNITRO",
+ "sid": 12061,
+ "pmt": 53,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,53,173,146]
+},
+{
+ "id": 9,
+ "name": "ProSieben",
+ "sid": 17501,
+ "pmt": 97,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12545,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,97,511,512,515]
+},
+{
+ "id": 10,
+ "name": "SAT.1",
+ "sid": 17500,
+ "pmt": 96,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12545,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,96,255,256,259]
+},
+{
+ "id": 11,
+ "name": "kabel eins",
+ "sid": 17502,
+ "pmt": 98,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12545,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,98,767,768]
+},
+{
+ "id": 12,
+ "name": "VOX",
+ "sid": 12060,
+ "pmt": 47,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,47,167,136]
+},
+{
+ "id": 13,
+ "name": "DAS VIERTE",
+ "sid": 1793,
+ "pmt": 115,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,115,2047,2048]
+},
+{
+ "id": 14,
+ "name": "SIXX",
+ "sid": 776,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,99,767,768]
+},
+{
+ "id": 15,
+ "name": "TELE 5",
+ "sid": 51,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,99,1535,1536]
+},
+{
+ "id": 16,
+ "name": "DMAX",
+ "sid": 63,
+ "pmt": 108,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,108,3327,3328]
+},
+{
+ "id": 17,
+ "name": "NICK/CC",
+ "sid": 28680,
+ "pmt": 420,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11973,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,420,4101,4102]
+},
+{
+ "id": 18,
+ "name": "ANIXE HD",
+ "sid": 21100,
+ "pmt": 96,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10773,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,96,255,259]
+},
+{
+ "id": 19,
+ "name": "ANIXE SD",
+ "sid": 764,
+ "pmt": 107,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,107,3311,3312]
+},
+{
+ "id": 20,
+ "name": "3sat HD",
+ "sid": 11150,
+ "pmt": 6500,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11347,
+   "pol": "v",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6500,6510,6520,6521,6523,6522]
+},
+{
+ "id": 21,
+ "name": "3sat",
+ "sid": 28007,
+ "pmt": 200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,200,210,220,221,225]
+},
+{
+ "id": 22,
+ "name": "arte HD",
+ "sid": 10302,
+ "pmt": 5110,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11494,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5110,5111,5112,5113,5116]
+},
+{
+ "id": 23,
+ "name": "arte",
+ "sid": 28724,
+ "pmt": 400,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10743,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,400,401,402,403]
+},
+{
+ "id": 24,
+ "name": "KiKA HD",
+ "sid": 11160,
+ "pmt": 6600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11347,
+   "pol": "v",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6600,6610,6620,6622]
+},
+{
+ "id": 25,
+ "name": "KiKA",
+ "sid": 28008,
+ "pmt": 300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,300,310,320]
+},
+{
+ "id": 26,
+ "name": "RiC",
+ "sid": 13019,
+ "pmt": 1009,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12692,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1009,190,191]
+},
+{
+ "id": 27,
+ "name": "BR Sued HD",
+ "sid": 10325,
+ "pmt": 5200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11582,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5200,5201,5202,5203,5206]
+},
+{
+ "id": 28,
+ "name": "Bayerisches FS Sued",
+ "sid": 28107,
+ "pmt": 200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11837,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,200,201,202,203,206]
+},
+{
+ "id": 29,
+ "name": "hr-fernsehen",
+ "sid": 28108,
+ "pmt": 300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11837,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,300,301,302,303]
+},
+{
+ "id": 30,
+ "name": "MDR S-Anhalt",
+ "sid": 28229,
+ "pmt": 2900,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12109,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,2900,2901,2902]
+},
+{
+ "id": 31,
+ "name": "NDR FS NDS HD",
+ "sid": 10327,
+ "pmt": 5220,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11582,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5220,5221,5222,5223,5226]
+},
+{
+ "id": 32,
+ "name": "NDR FS NDS",
+ "sid": 28226,
+ "pmt": 2600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12109,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,2600,2601,2602,2603]
+},
+{
+ "id": 33,
+ "name": "Radio Bremen TV",
+ "sid": 28385,
+ "pmt": 1200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12422,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1200,1201,1202]
+},
+{
+ "id": 34,
+ "name": "rbb Berlin",
+ "sid": 28206,
+ "pmt": 600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12109,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,600,601,602]
+},
+{
+ "id": 35,
+ "name": "SR Fernsehen",
+ "sid": 28486,
+ "pmt": 1300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12266,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1300,1301,1302,1303]
+},
+{
+ "id": 36,
+ "name": "SWR BW HD",
+ "sid": 10303,
+ "pmt": 5120,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11494,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5120,5121,5122,5123,5126]
+},
+{
+ "id": 37,
+ "name": "SWR Fernsehen BW",
+ "sid": 28113,
+ "pmt": 800,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11837,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,800,801,802,803]
+},
+{
+ "id": 38,
+ "name": "WDR HD Koeln",
+ "sid": 28325,
+ "pmt": 5500,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12422,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,5500,5501,5502,5503,5506]
+},
+{
+ "id": 39,
+ "name": "WDR Koeln",
+ "sid": 28111,
+ "pmt": 600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11837,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,600,601,602,603]
+},
+{
+ "id": 40,
+ "name": "EinsPlus",
+ "sid": 28723,
+ "pmt": 300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10743,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,300,301,302,303,306]
+},
+{
+ "id": 41,
+ "name": "tagesschau24",
+ "sid": 28721,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10743,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,100,101,102]
+},
+{
+ "id": 42,
+ "name": "Einsfestival HD",
+ "sid": 28396,
+ "pmt": 1600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12422,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1600,1601,1602]
+},
+{
+ "id": 43,
+ "name": "Einsfestival",
+ "sid": 28722,
+ "pmt": 200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10743,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,200,201,202,203,206]
+},
+{
+ "id": 44,
+ "name": "ZDFinfo HD",
+ "sid": 11170,
+ "pmt": 6700,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11347,
+   "pol": "v",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6700,6710,6720,6721,6723,6722]
+},
+{
+ "id": 45,
+ "name": "ZDFinfo",
+ "sid": 28011,
+ "pmt": 600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,600,610,620]
+},
+{
+ "id": 46,
+ "name": "zdf_neo HD",
+ "sid": 11130,
+ "pmt": 6300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11362,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6300,6310,6320,6321,6323,6322]
+},
+{
+ "id": 47,
+ "name": "zdf_neo",
+ "sid": 28014,
+ "pmt": 650,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,650,660,670,671]
+},
+{
+ "id": 48,
+ "name": "zdf.kultur HD",
+ "sid": 11140,
+ "pmt": 6400,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11362,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,6400,6410,6420,6421,6423,6422]
+},
+{
+ "id": 49,
+ "name": "zdf.kultur",
+ "sid": 28016,
+ "pmt": 1100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11954,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1100,1110,1120,1121]
+},
+{
+ "id": 50,
+ "name": "BR-alpha",
+ "sid": 28487,
+ "pmt": 1400,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12266,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1400,1401,1402,1403,1406]
+},
+{
+ "id": 51,
+ "name": "PHOENIX HD",
+ "sid": 10331,
+ "pmt": 5260,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11582,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,5260,5261,5262,5263]
+},
+{
+ "id": 52,
+ "name": "PHOENIX",
+ "sid": 28725,
+ "pmt": 500,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10743,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,500,501,502,503]
+},
+{
+ "id": 53,
+ "name": "n-tv",
+ "sid": 12090,
+ "pmt": 48,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,48,169,73]
+},
+{
+ "id": 54,
+ "name": "N24",
+ "sid": 17503,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12545,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,99,1023,1024]
+},
+{
+ "id": 55,
+ "name": "EuroNews",
+ "sid": 31220,
+ "pmt": 260,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,260,2432,2433,2434,2435,2436,2437,2438,2439,2440,2441,2442]
+},
+{
+ "id": 56,
+ "name": "SPORT1",
+ "sid": 900,
+ "pmt": 103,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,103,1023,1024]
+},
+{
+ "id": 57,
+ "name": "Eurosport Deutschland",
+ "sid": 31200,
+ "pmt": 280,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,280,101,103]
+},
+{
+ "id": 58,
+ "name": "ServusTV HD Deutschland",
+ "sid": 4914,
+ "pmt": 110,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11302,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,110,4920,4921,4922,4923]
+},
+{
+ "id": 59,
+ "name": "ServusTV Deutschland",
+ "sid": 13110,
+ "pmt": 1210,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1210,1110,1111,1112]
+},
+{
+ "id": 60,
+ "name": "VIVA Germany",
+ "sid": 28676,
+ "pmt": 416,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11973,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,416,4061,4062]
+},
+{
+ "id": 61,
+ "name": "DELUXE MUSIC",
+ "sid": 65,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12148,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,99,3327,3328,3331]
+},
+{
+ "id": 62,
+ "name": "AstroTV",
+ "sid": 661,
+ "pmt": 98,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,98,2559,2560]
+},
+{
+ "id": 63,
+ "name": "Channel 21",
+ "sid": 12080,
+ "pmt": 41,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,41,168,137]
+},
+{
+ "id": 64,
+ "name": "HSE24 HD",
+ "sid": 21104,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10773,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,100,1279,1283]
+},
+{
+ "id": 65,
+ "name": "HSE24",
+ "sid": 40,
+ "pmt": 104,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,104,1279,1280]
+},
+{
+ "id": 66,
+ "name": "HSE24 Extra",
+ "sid": 31210,
+ "pmt": 259,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,259,512,660]
+},
+{
+ "id": 67,
+ "name": "HSE24 Trend",
+ "sid": 77,
+ "pmt": 110,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,110,3071,3072]
+},
+{
+ "id": 68,
+ "name": "QVC HD",
+ "sid": 21103,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10773,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,99,1023,1027]
+},
+{
+ "id": 69,
+ "name": "QVC Deutschland",
+ "sid": 1794,
+ "pmt": 96,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,96,255,256]
+},
+{
+ "id": 70,
+ "name": "QVC Beauty",
+ "sid": 64,
+ "pmt": 102,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,102,1791,1792]
+},
+{
+ "id": 71,
+ "name": "QVC PLUS HD",
+ "sid": 5504,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 10803,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,100,1279,1283]
+},
+{
+ "id": 72,
+ "name": "QVC PLUS",
+ "sid": 3394,
+ "pmt": 1060,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12551,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1060,168,144]
+},
+{
+ "id": 73,
+ "name": "Juwelo HD",
+ "sid": 5403,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12574,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,99,1023,1024]
+},
+{
+ "id": 74,
+ "name": "Juwelo TV",
+ "sid": 12616,
+ "pmt": 116,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12633,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,116,1041,1042]
+},
+{
+ "id": 75,
+ "name": "Juwelo pur",
+ "sid": 12600,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12633,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,100,201,300]
+},
+{
+ "id": 76,
+ "name": "sonnenklar.TV HD",
+ "sid": 5400,
+ "pmt": 96,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12574,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,96,255,259]
+},
+{
+ "id": 77,
+ "name": "Sonnenklar TV",
+ "sid": 32,
+ "pmt": 97,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,97,2303,2304]
+},
+{
+ "id": 78,
+ "name": "1-2-3.tv",
+ "sid": 662,
+ "pmt": 105,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,105,2815,2816]
+},
+{
+ "id": 79,
+ "name": "meinTVshop",
+ "sid": 899,
+ "pmt": 101,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,101,511,512]
+},
+{
+ "id": 80,
+ "name": "DAF-AnlegerTV",
+ "sid": 13227,
+ "pmt": 227,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11244,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,227,2270,2271]
+},
+{
+ "id": 81,
+ "name": "Dr.DishTV",
+ "sid": 5411,
+ "pmt": 107,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12574,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,107,3071,3072]
+},
+{
+ "id": 82,
+ "name": "Bibel TV",
+ "sid": 12122,
+ "pmt": 32,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12551,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,32,33,34]
+},
+{
+ "id": 83,
+ "name": "EWTN katholisches TV",
+ "sid": 62,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,100,1023,1024,1025]
+},
+{
+ "id": 84,
+ "name": "K-TV",
+ "sid": 12601,
+ "pmt": 102,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12633,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,102,202,302]
+},
+{
+ "id": 85,
+ "name": "ERF",
+ "sid": 48,
+ "pmt": 98,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12461,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,98,511,512,513,514,515]
+},
+{
+ "id": 86,
+ "name": "HOPE Channel deutsch",
+ "sid": 71,
+ "pmt": 105,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12148,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,105,511,512]
+},
+{
+ "id": 87,
+ "name": "SOPHIA TV",
+ "sid": 4712,
+ "pmt": 108,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11421,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,108,3327,3328]
+},
+{
+ "id": 88,
+ "name": "muetv/RFO",
+ "sid": 4604,
+ "pmt": 100,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,100,1279,1280]
+},
+{
+ "id": 89,
+ "name": "rhein main tv",
+ "sid": 12614,
+ "pmt": 108,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12633,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,108,208,308]
+},
+{
+ "id": 90,
+ "name": "Augsburg TV",
+ "sid": 4600,
+ "pmt": 96,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,96,255,256]
+},
+{
+ "id": 91,
+ "name": "Franken SAT",
+ "sid": 4602,
+ "pmt": 98,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,98,767,768]
+},
+{
+ "id": 92,
+ "name": "Franken Fernsehen",
+ "sid": 4601,
+ "pmt": 97,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,97,511,512]
+},
+{
+ "id": 93,
+ "name": "RNF",
+ "sid": 768,
+ "pmt": 122,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12148,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,122,1104,1105]
+},
+{
+ "id": 94,
+ "name": "ONTV Regional",
+ "sid": 4605,
+ "pmt": 101,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,101,1535,1536]
+},
+{
+ "id": 95,
+ "name": "Regio TV",
+ "sid": 47,
+ "pmt": 107,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12480,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,107,2047,2048]
+},
+{
+ "id": 96,
+ "name": "Lokal TV Portal",
+ "sid": 4690,
+ "pmt": 144,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,144,4607,4608]
+},
+{
+ "id": 97,
+ "name": "Lokal SAT",
+ "sid": 4603,
+ "pmt": 99,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11523,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,99,1023,1024]
+},
+{
+ "id": 98,
+ "name": "TVM/WWTV",
+ "sid": 13113,
+ "pmt": 1213,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1213,2130,2131]
+},
+{
+ "id": 99,
+ "name": "CNN Int.",
+ "sid": 28522,
+ "pmt": 3946,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11778,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,3946,165,100]
+},
+{
+ "id": 100,
+ "name": "BBC World News",
+ "sid": 10050,
+ "pmt": 1858,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11597,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1858,163,92]
+},
+{
+ "id": 101,
+ "name": "Sky News International",
+ "sid": 7290,
+ "pmt": 7290,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12604,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,7290,1290,2290]
+},
+{
+ "id": 102,
+ "name": "CNBC Europe",
+ "sid": 10030,
+ "pmt": 1838,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11597,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1838,307,308]
+},
+{
+ "id": 103,
+ "name": "ORF2E",
+ "sid": 13014,
+ "pmt": 1004,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12692,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1004,170,171]
+},
+{
+ "id": 104,
+ "name": "Hitradio OE3",
+ "sid": 13013,
+ "pmt": 1003,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12692,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1003,130,131]
+},
+{
+ "id": 105,
+ "name": "RTL Austria",
+ "sid": 28800,
+ "pmt": 200,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,200,201,202]
+},
+{
+ "id": 106,
+ "name": "RTL 2 Austria",
+ "sid": 28810,
+ "pmt": 400,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,400,401,402]
+},
+{
+ "id": 107,
+ "name": "SUPER RTL A",
+ "sid": 28815,
+ "pmt": 500,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,500,501,502]
+},
+{
+ "id": 108,
+ "name": "Kabel 1 Austria",
+ "sid": 20004,
+ "pmt": 1027,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1027,166,167]
+},
+{
+ "id": 109,
+ "name": "ProSieben Austria",
+ "sid": 20002,
+ "pmt": 1025,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1025,161,84,85]
+},
+{
+ "id": 110,
+ "name": "SAT.1 A",
+ "sid": 20005,
+ "pmt": 1028,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1028,800,801,803]
+},
+{
+ "id": 111,
+ "name": "Kabel 1 Schweiz",
+ "sid": 20003,
+ "pmt": 1026,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,1026,162,163]
+},
+{
+ "id": 112,
+ "name": "VOX Austria",
+ "sid": 28805,
+ "pmt": 300,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,300,301,302]
+},
+{
+ "id": 113,
+ "name": "sixx Austria",
+ "sid": 13106,
+ "pmt": 1106,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1106,1060,1061]
+},
+{
+ "id": 114,
+ "name": "TELE 5 Austria",
+ "sid": 13228,
+ "pmt": 228,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11244,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,228,2280,2281,2282]
+},
+{
+ "id": 115,
+ "name": "NICK/CC AUT",
+ "sid": 61,
+ "pmt": 107,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12148,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,107,1791,1792]
+},
+{
+ "id": 116,
+ "name": "Tirol TV",
+ "sid": 13141,
+ "pmt": 1241,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1241,2410,2411]
+},
+{
+ "id": 117,
+ "name": "VIVA AUT",
+ "sid": 60,
+ "pmt": 106,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12148,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,106,1535,1536]
+},
+{
+ "id": 118,
+ "name": "GoTV",
+ "sid": 13102,
+ "pmt": 1102,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1102,1020,1021]
+},
+{
+ "id": 119,
+ "name": "ServusTV HD Oesterreich",
+ "sid": 4913,
+ "pmt": 109,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11303,
+   "pol": "h",
+   "msys": "dvbs2",
+   "sr": 22000
+ },
+ "pids": [0,109,3583,3584,3585,3587]
+},
+{
+ "id": 120,
+ "name": "ServusTV Oesterreich",
+ "sid": 13111,
+ "pmt": 1211,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12663,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1211,2110,2111,2112]
+},
+{
+ "id": 121,
+ "name": "ProSieben Schweiz",
+ "sid": 20001,
+ "pmt": 32,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,32,289,290,292]
+},
+{
+ "id": 122,
+ "name": "SAT.1 CH",
+ "sid": 20006,
+ "pmt": 101,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12051,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,101,1535,1536,1539]
+},
+{
+ "id": 123,
+ "name": "SUPER RTL CH",
+ "sid": 12041,
+ "pmt": 52,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12188,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,52,172,145]
+},
+{
+ "id": 124,
+ "name": "VOX CH",
+ "sid": 28820,
+ "pmt": 600,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 12227,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 27500
+ },
+ "pids": [0,600,601,602]
+},
+{
+ "id": 125,
+ "name": "TV5 Monde",
+ "sid": 6401,
+ "pmt": 1280,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11479,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,1280,160,80]
+},
+{
+ "id": 126,
+ "name": "TRT Turk",
+ "sid": 5113,
+ "pmt": 45,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11612,
+   "pol": "h",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,45,2011,4004]
+},
+{
+ "id": 127,
+ "name": "Al Jazeera English",
+ "sid": 7012,
+ "pmt": 762,
+ "satparams": {
+   "fe": -1,
+   "src": "1",
+   "freq": 11508,
+   "pol": "v",
+   "msys": "dvbs",
+   "sr": 22000
+ },
+ "pids": [0,762,712,732]
+}
+]

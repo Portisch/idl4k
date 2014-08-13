@@ -1,0 +1,147 @@
+
+Lang=en
+LangEn=En
+LangDe=<B>De</B>
+LangPt=Pt
+
+LoginPassword=Passwort:
+LoginButton=Anmelden
+LoginFailedHead=[HTTP 403]
+LoginFailed=Sie benötigen das korrekte Passwort zum Zugriff auf diese Seite. Das Standardpasswort ist 'admin'.<BR>Bitte stellen Sie sicher das Cookies in Ihrem Browser aktiviert sind.<BR><A HREF="/">Nochmals versuchen.</A>
+
+
+MenuStatus=Status
+MenuAntenna=Antenne
+MenuDLNA=DLNA
+MenuSystem=System
+MenuPVR=PVR
+MenuNet=Netzwerk
+MenuM3U=m3u list
+
+
+Save=Speichern
+Browse=Suchen
+Send=Aktualisieren
+Cancel=Abbrechen
+Update=Aktualisieren
+Change=Ändern
+Disabled=Disabled
+Unknown=Unbekannt
+active=aktiviert
+Yes=Ja
+No=Nein
+
+PasswordChanged=Passwort wurde geändert
+PasswordNotMatch=Passwort stimmt nicht überein
+PasswordEmpty=Passwort darf nicht leer sein
+
+
+# Status page
+StatusUUID = Status UUID
+StatusDeviceID = Device ID
+StatusBootID = Boot ID
+StatusConfigID = Config ID
+StatusSN = SN
+StatusMAC = MAC
+StatusIP = IP
+
+StatusAntenne = Antenneneinstellungen
+StatusLNB = LNB
+
+StatusDLNA = DLNA
+StatusDLNAActive = Aktiviert
+StatusProgListDownload = Herunterladen
+
+# Antenne page
+AntenneLNBTyp = LNB&nbsp;Typ:
+AntenneLNBTypeQuad = Quad
+AntenneLNBTypeQuattro = Quattro
+AntenneLNBTypeUnicable = Unicable
+AntenneAutoLNBZuw = LNB Eingangswahl
+AntenneAutomaticFrontendAlloc = automatische LNB Eingangswahl
+AntenneLOFreqs = LO1/LO2 Frequenzen
+AntenneMHZ = MHz
+AntennaLNBInfo = Kanal zuweisen:
+AntennaLNB1 = Eingang LNB 1 (Kanal 0):
+AntennaLNB2 = Eingang LNB 2 (Kanal 1):
+AntennaLNB3 = Eingang LNB 3 (Kanal 2):
+AntennaLNB4 = Eingang LNB 4 (Kanal 3):
+
+# DLNA page
+DLNAServer = miniDLNA Server
+DLNAactive = DLNA aktivieren
+DLNAProgList = DLNA Hauptliste TV
+###DLNARestartReq = Neustart notwendig
+
+DLNAProgListInfo = DLNA Kanalliste aktualisiert (%d neue Kanale)
+DLNAProgListWrongFile = Falsches Dateiformat
+DLNAProgListUploadError = Aktualisierung der DLNA Kanalliste fehlgeschlagen
+
+DLNAUploadFailed = There was an error attempting to upload the file.
+DLNAUploadCanceled = The upload has been canceled by the user or the browser dropped the connection.
+DLNAUploadUnabledToCompute == unable to compute
+
+FavListNew = Neu
+FavListExport = Exportieren
+FavListImport = Importieren
+FavListEdit = Bearbeiten
+FavListDel = Entfernen
+FavListLabel = Favoritenliste(n):
+FavListEditMode = Favoritenliste bearbeiten
+FavListEditMessage1 = Benutzen Sie die Pfeiltasten um Kanäle hinzuzufügen oder zu entfernen
+FavListEditMessage2 = Ziehen Sie die TV Kanäle von der Hauptliste in die Favoritenliste. Wenn Sie einen Kanal in den Mülleimer ziehen wird er aus der Liste gelöscht.
+FavListProgListTV = Hauptliste TV
+FavListSortAZ = Sortieren A..Z
+FavListRemoveAll = Alles löschen
+FavListTrash = Mülleimer
+FavListOnlyOne = Kann nicht mehr als 1 Favoritenlisten
+
+# System page
+
+SystemFirmwareUpdate = Online Firmware Aktualisierung
+SystemFirmwareVerOnSrv = Verfügbare Firmware Version auf dem Server:
+SystemFirmwareLocalUpdate = Lokales Firmware Update
+SystemPasswordChange = Passwort ändern
+SystemPasswordNew = Neues Passwort:
+SystemPasswordNewRep = Neues Passwort wiederholen:
+SystemReboot = System Neustart
+SystemRebootBtn = Neustart
+SystemRebootWait = Bitte warten...
+SystemFirmwareUploadOK = Softwareaktualisierung erfolgreich - bitte warten bis das Ger&auml;t neu startet...
+SystemFirmwareUploadFailed = Softwareaktualisierung fehlgeschlagen
+SystemFirmwareWait = Bitte warten...
+SystemFirmwareWait2 = Softwareaktualisierung erfolgreich - bitte warten bis das Ger&auml;t neu startet...
+SystemFirmwareFailed = Beim Hochladen der Datei trat ein Fehler auf
+SystemFirmwareCanceled = The upload has been canceled by the user or the browser dropped the connection.
+
+# PVR page
+
+PvrRemoteAccess = Remote Access
+PvrRemoteAccessMethod = Remote Access Method:
+PvrRemoteAccessMethodDropBox = DropBox
+PvrRecordPath = PVR Record Path:
+PvrRecordNoDevice = #No device selected#
+PvrRtspWait = Bitte warten...
+PvrRtspUploadFailed = Beim Hochladen der Datei trat ein Fehler auf
+PvrRtspUploadCanceled = The upload has been canceled by the user or the browser dropped the connection.
+
+# Network page
+
+NetworkSettings = Netzwerkeinstellungen
+NetworkDHCP = DHCP:
+NetworkIP = IP:
+NetworkMask = Mask:
+NetworkGateway = Gateway:
+NetworkDNS = DNS:
+NetworkNTP = NTP:
+NetworkHostname = Host name:
+NetworkHostnameTooLong = Die maximale Länge des Hostname ist 15 Zeichen.
+
+# M3U List page
+
+M3uListUpdate = Lokales M3U-List Update
+M3uFile = SAT&gt;IP m3u Datei:
+M3uLink = M3U verfügbar auf:
+M3uUploadFailed = M3U Datei laden fehlgeschlagen.
+M3uUploadOK = M3U Datei geladen.
+

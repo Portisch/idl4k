@@ -1,0 +1,255 @@
+#EXTM3U
+#EXTINF:-1,Das Erste HD
+http://<?=StatusIP?>/?src=1&freq=11494&sr=22000&pol=h&msys=dvbs2&pids=0,5100,5101,5102,5103,5106
+#EXTINF:-1,Das Erste
+http://<?=StatusIP?>/?src=1&freq=11837&sr=27500&pol=h&msys=dvbs&pids=0,100,101,102,103,106
+#EXTINF:-1,ZDF HD
+http://<?=StatusIP?>/?src=1&freq=11362&sr=22000&pol=h&msys=dvbs2&pids=0,6100,6110,6120,6121,6123,6122
+#EXTINF:-1,ZDF
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,100,110,120,121,125,130
+#EXTINF:-1,RTL Television
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,44,163,104,106
+#EXTINF:-1,RTL 2
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,46,166,128
+#EXTINF:-1,SUPER RTL
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,45,165,120
+#EXTINF:-1,RTLNITRO
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,53,173,146
+#EXTINF:-1,ProSieben
+http://<?=StatusIP?>/?src=1&freq=12545&sr=22000&pol=h&msys=dvbs&pids=0,97,511,512,515
+#EXTINF:-1,SAT.1
+http://<?=StatusIP?>/?src=1&freq=12545&sr=22000&pol=h&msys=dvbs&pids=0,96,255,256,259
+#EXTINF:-1,kabel eins
+http://<?=StatusIP?>/?src=1&freq=12545&sr=22000&pol=h&msys=dvbs&pids=0,98,767,768
+#EXTINF:-1,VOX
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,47,167,136
+#EXTINF:-1,DAS VIERTE
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,115,2047,2048
+#EXTINF:-1,SIXX
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,99,767,768
+#EXTINF:-1,TELE 5
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,99,1535,1536
+#EXTINF:-1,DMAX
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,108,3327,3328
+#EXTINF:-1,NICK/CC
+http://<?=StatusIP?>/?src=1&freq=11973&sr=27500&pol=v&msys=dvbs&pids=0,420,4101,4102
+#EXTINF:-1,ANIXE HD
+http://<?=StatusIP?>/?src=1&freq=10773&sr=22000&pol=h&msys=dvbs2&pids=0,96,255,259
+#EXTINF:-1,ANIXE SD
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,107,3311,3312
+#EXTINF:-1,3sat HD
+http://<?=StatusIP?>/?src=1&freq=11347&sr=22000&pol=v&msys=dvbs2&pids=0,6500,6510,6520,6521,6523,6522
+#EXTINF:-1,3sat
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,200,210,220,221,225
+#EXTINF:-1,arte HD
+http://<?=StatusIP?>/?src=1&freq=11494&sr=22000&pol=h&msys=dvbs2&pids=0,5110,5111,5112,5113,5116
+#EXTINF:-1,arte
+http://<?=StatusIP?>/?src=1&freq=10743&sr=22000&pol=h&msys=dvbs&pids=0,400,401,402,403
+#EXTINF:-1,KiKA HD
+http://<?=StatusIP?>/?src=1&freq=11347&sr=22000&pol=v&msys=dvbs2&pids=0,6600,6610,6620,6622
+#EXTINF:-1,KiKA
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,300,310,320
+#EXTINF:-1,RiC
+http://<?=StatusIP?>/?src=1&freq=12692&sr=22000&pol=h&msys=dvbs&pids=0,1009,190,191
+#EXTINF:-1,BR Sued HD
+http://<?=StatusIP?>/?src=1&freq=11582&sr=22000&pol=h&msys=dvbs2&pids=0,5200,5201,5202,5203,5206
+#EXTINF:-1,Bayerisches FS Sued
+http://<?=StatusIP?>/?src=1&freq=11837&sr=27500&pol=h&msys=dvbs&pids=0,200,201,202,203,206
+#EXTINF:-1,hr-fernsehen
+http://<?=StatusIP?>/?src=1&freq=11837&sr=27500&pol=h&msys=dvbs&pids=0,300,301,302,303
+#EXTINF:-1,MDR S-Anhalt
+http://<?=StatusIP?>/?src=1&freq=12109&sr=27500&pol=h&msys=dvbs&pids=0,2900,2901,2902
+#EXTINF:-1,NDR FS NDS HD
+http://<?=StatusIP?>/?src=1&freq=11582&sr=22000&pol=h&msys=dvbs2&pids=0,5220,5221,5222,5223,5226
+#EXTINF:-1,NDR FS NDS
+http://<?=StatusIP?>/?src=1&freq=12109&sr=27500&pol=h&msys=dvbs&pids=0,2600,2601,2602,2603
+#EXTINF:-1,Radio Bremen TV
+http://<?=StatusIP?>/?src=1&freq=12422&sr=27500&pol=h&msys=dvbs&pids=0,1200,1201,1202
+#EXTINF:-1,rbb Berlin
+http://<?=StatusIP?>/?src=1&freq=12109&sr=27500&pol=h&msys=dvbs&pids=0,600,601,602
+#EXTINF:-1,SR Fernsehen
+http://<?=StatusIP?>/?src=1&freq=12266&sr=27500&pol=h&msys=dvbs&pids=0,1300,1301,1302,1303
+#EXTINF:-1,SWR BW HD
+http://<?=StatusIP?>/?src=1&freq=11494&sr=22000&pol=h&msys=dvbs2&pids=0,5120,5121,5122,5123,5126
+#EXTINF:-1,SWR Fernsehen BW
+http://<?=StatusIP?>/?src=1&freq=11837&sr=27500&pol=h&msys=dvbs&pids=0,800,801,802,803
+#EXTINF:-1,WDR HD Koeln
+http://<?=StatusIP?>/?src=1&freq=12422&sr=27500&pol=h&msys=dvbs&pids=0,5500,5501,5502,5503,5506
+#EXTINF:-1,WDR Koeln
+http://<?=StatusIP?>/?src=1&freq=11837&sr=27500&pol=h&msys=dvbs&pids=0,600,601,602,603
+#EXTINF:-1,EinsPlus
+http://<?=StatusIP?>/?src=1&freq=10743&sr=22000&pol=h&msys=dvbs&pids=0,300,301,302,303,306
+#EXTINF:-1,tagesschau24
+http://<?=StatusIP?>/?src=1&freq=10743&sr=22000&pol=h&msys=dvbs&pids=0,100,101,102
+#EXTINF:-1,Einsfestival HD
+http://<?=StatusIP?>/?src=1&freq=12422&sr=27500&pol=h&msys=dvbs&pids=0,1600,1601,1602
+#EXTINF:-1,Einsfestival
+http://<?=StatusIP?>/?src=1&freq=10743&sr=22000&pol=h&msys=dvbs&pids=0,200,201,202,203,206
+#EXTINF:-1,ZDFinfo HD
+http://<?=StatusIP?>/?src=1&freq=11347&sr=22000&pol=v&msys=dvbs2&pids=0,6700,6710,6720,6721,6723,6722
+#EXTINF:-1,ZDFinfo
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,600,610,620
+#EXTINF:-1,zdf_neo HD
+http://<?=StatusIP?>/?src=1&freq=11362&sr=22000&pol=h&msys=dvbs2&pids=0,6300,6310,6320,6321,6323,6322
+#EXTINF:-1,zdf_neo
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,650,660,670,671
+#EXTINF:-1,zdf.kultur HD
+http://<?=StatusIP?>/?src=1&freq=11362&sr=22000&pol=h&msys=dvbs2&pids=0,6400,6410,6420,6421,6423,6422
+#EXTINF:-1,zdf.kultur
+http://<?=StatusIP?>/?src=1&freq=11954&sr=27500&pol=h&msys=dvbs&pids=0,1100,1110,1120,1121
+#EXTINF:-1,BR-alpha
+http://<?=StatusIP?>/?src=1&freq=12266&sr=27500&pol=h&msys=dvbs&pids=0,1400,1401,1402,1403,1406
+#EXTINF:-1,PHOENIX HD
+http://<?=StatusIP?>/?src=1&freq=11582&sr=22000&pol=h&msys=dvbs2&pids=0,5260,5261,5262,5263
+#EXTINF:-1,PHOENIX
+http://<?=StatusIP?>/?src=1&freq=10743&sr=22000&pol=h&msys=dvbs&pids=0,500,501,502,503
+#EXTINF:-1,n-tv
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,48,169,73
+#EXTINF:-1,N24
+http://<?=StatusIP?>/?src=1&freq=12545&sr=22000&pol=h&msys=dvbs&pids=0,99,1023,1024
+#EXTINF:-1,EuroNews
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,260,2432,2433,2434,2435,2436,2437,2438,2439,2440,2441,2442
+#EXTINF:-1,SPORT1
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,103,1023,1024
+#EXTINF:-1,Eurosport Deutschland
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,280,101,103
+#EXTINF:-1,ServusTV HD Deutschland
+http://<?=StatusIP?>/?src=1&freq=11302&sr=22000&pol=h&msys=dvbs2&pids=0,110,4920,4921,4922,4923
+#EXTINF:-1,ServusTV Deutschland
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1210,1110,1111,1112
+#EXTINF:-1,VIVA Germany
+http://<?=StatusIP?>/?src=1&freq=11973&sr=27500&pol=v&msys=dvbs&pids=0,416,4061,4062
+#EXTINF:-1,DELUXE MUSIC
+http://<?=StatusIP?>/?src=1&freq=12148&sr=27500&pol=h&msys=dvbs&pids=0,99,3327,3328,3331
+#EXTINF:-1,AstroTV
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,98,2559,2560
+#EXTINF:-1,Channel 21
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,41,168,137
+#EXTINF:-1,HSE24 HD
+http://<?=StatusIP?>/?src=1&freq=10773&sr=22000&pol=h&msys=dvbs2&pids=0,100,1279,1283
+#EXTINF:-1,HSE24
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,104,1279,1280
+#EXTINF:-1,HSE24 Extra
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,259,512,660
+#EXTINF:-1,HSE24 Trend
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,110,3071,3072
+#EXTINF:-1,QVC HD
+http://<?=StatusIP?>/?src=1&freq=10773&sr=22000&pol=h&msys=dvbs2&pids=0,99,1023,1027
+#EXTINF:-1,QVC Deutschland
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,96,255,256
+#EXTINF:-1,QVC Beauty
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,102,1791,1792
+#EXTINF:-1,QVC PLUS HD
+http://<?=StatusIP?>/?src=1&freq=10803&sr=22000&pol=h&msys=dvbs2&pids=0,100,1279,1283
+#EXTINF:-1,QVC PLUS
+http://<?=StatusIP?>/?src=1&freq=12551&sr=22000&pol=v&msys=dvbs&pids=0,1060,168,144
+#EXTINF:-1,Juwelo HD
+http://<?=StatusIP?>/?src=1&freq=12574&sr=22000&pol=h&msys=dvbs2&pids=0,99,1023,1024
+#EXTINF:-1,Juwelo TV
+http://<?=StatusIP?>/?src=1&freq=12633&sr=22000&pol=h&msys=dvbs&pids=0,116,1041,1042
+#EXTINF:-1,Juwelo pur
+http://<?=StatusIP?>/?src=1&freq=12633&sr=22000&pol=h&msys=dvbs&pids=0,100,201,300
+#EXTINF:-1,sonnenklar.TV HD
+http://<?=StatusIP?>/?src=1&freq=12574&sr=22000&pol=h&msys=dvbs2&pids=0,96,255,259
+#EXTINF:-1,Sonnenklar TV
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,97,2303,2304
+#EXTINF:-1,1-2-3.tv
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,105,2815,2816
+#EXTINF:-1,meinTVshop
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,101,511,512
+#EXTINF:-1,DAF-AnlegerTV
+http://<?=StatusIP?>/?src=1&freq=11244&sr=22000&pol=h&msys=dvbs&pids=0,227,2270,2271
+#EXTINF:-1,Dr.DishTV
+http://<?=StatusIP?>/?src=1&freq=12574&sr=22000&pol=h&msys=dvbs2&pids=0,107,3071,3072
+#EXTINF:-1,Bibel TV
+http://<?=StatusIP?>/?src=1&freq=12551&sr=22000&pol=v&msys=dvbs&pids=0,32,33,34
+#EXTINF:-1,EWTN katholisches TV
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,100,1023,1024,1025
+#EXTINF:-1,K-TV
+http://<?=StatusIP?>/?src=1&freq=12633&sr=22000&pol=h&msys=dvbs&pids=0,102,202,302
+#EXTINF:-1,ERF
+http://<?=StatusIP?>/?src=1&freq=12461&sr=27500&pol=h&msys=dvbs&pids=0,98,511,512,513,514,515
+#EXTINF:-1,HOPE Channel deutsch
+http://<?=StatusIP?>/?src=1&freq=12148&sr=27500&pol=h&msys=dvbs&pids=0,105,511,512
+#EXTINF:-1,SOPHIA TV
+http://<?=StatusIP?>/?src=1&freq=11421&sr=22000&pol=h&msys=dvbs&pids=0,108,3327,3328
+#EXTINF:-1,muetv/RFO
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,100,1279,1280
+#EXTINF:-1,rhein main tv
+http://<?=StatusIP?>/?src=1&freq=12633&sr=22000&pol=h&msys=dvbs&pids=0,108,208,308
+#EXTINF:-1,Augsburg TV
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,96,255,256
+#EXTINF:-1,Franken SAT
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,98,767,768
+#EXTINF:-1,Franken Fernsehen
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,97,511,512
+#EXTINF:-1,RNF
+http://<?=StatusIP?>/?src=1&freq=12148&sr=27500&pol=h&msys=dvbs&pids=0,122,1104,1105
+#EXTINF:-1,ONTV Regional
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,101,1535,1536
+#EXTINF:-1,Regio TV
+http://<?=StatusIP?>/?src=1&freq=12480&sr=27500&pol=v&msys=dvbs&pids=0,107,2047,2048
+#EXTINF:-1,Lokal TV Portal
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,144,4607,4608
+#EXTINF:-1,Lokal SAT
+http://<?=StatusIP?>/?src=1&freq=11523&sr=22000&pol=h&msys=dvbs&pids=0,99,1023,1024
+#EXTINF:-1,TVM/WWTV
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1213,2130,2131
+#EXTINF:-1,CNN Int.
+http://<?=StatusIP?>/?src=1&freq=11778&sr=27500&pol=v&msys=dvbs&pids=0,3946,165,100
+#EXTINF:-1,BBC World News
+http://<?=StatusIP?>/?src=1&freq=11597&sr=22000&pol=v&msys=dvbs&pids=0,1858,163,92
+#EXTINF:-1,Sky News International
+http://<?=StatusIP?>/?src=1&freq=12604&sr=22000&pol=h&msys=dvbs&pids=0,7290,1290,2290
+#EXTINF:-1,CNBC Europe
+http://<?=StatusIP?>/?src=1&freq=11597&sr=22000&pol=v&msys=dvbs&pids=0,1838,307,308
+#EXTINF:-1,ORF2E
+http://<?=StatusIP?>/?src=1&freq=12692&sr=22000&pol=h&msys=dvbs&pids=0,1004,170,171
+#EXTINF:-1,Hitradio OE3
+http://<?=StatusIP?>/?src=1&freq=12692&sr=22000&pol=h&msys=dvbs&pids=0,1003,130,131
+#EXTINF:-1,RTL Austria
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,200,201,202
+#EXTINF:-1,RTL 2 Austria
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,400,401,402
+#EXTINF:-1,SUPER RTL A
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,500,501,502
+#EXTINF:-1,Kabel 1 Austria
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,1027,166,167
+#EXTINF:-1,ProSieben Austria
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,1025,161,84,85
+#EXTINF:-1,SAT.1 A
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,1028,800,801,803
+#EXTINF:-1,Kabel 1 Schweiz
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,1026,162,163
+#EXTINF:-1,VOX Austria
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,300,301,302
+#EXTINF:-1,sixx Austria
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1106,1060,1061
+#EXTINF:-1,TELE 5 Austria
+http://<?=StatusIP?>/?src=1&freq=11244&sr=22000&pol=h&msys=dvbs&pids=0,228,2280,2281,2282
+#EXTINF:-1,NICK/CC AUT
+http://<?=StatusIP?>/?src=1&freq=12148&sr=27500&pol=h&msys=dvbs&pids=0,107,1791,1792
+#EXTINF:-1,Tirol TV
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1241,2410,2411
+#EXTINF:-1,VIVA AUT
+http://<?=StatusIP?>/?src=1&freq=12148&sr=27500&pol=h&msys=dvbs&pids=0,106,1535,1536
+#EXTINF:-1,GoTV
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1102,1020,1021
+#EXTINF:-1,ServusTV HD Oesterreich
+http://<?=StatusIP?>/?src=1&freq=11303&sr=22000&pol=h&msys=dvbs2&pids=0,109,3583,3584,3585,3587
+#EXTINF:-1,ServusTV Oesterreich
+http://<?=StatusIP?>/?src=1&freq=12663&sr=22000&pol=h&msys=dvbs&pids=0,1211,2110,2111,2112
+#EXTINF:-1,ProSieben Schweiz
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,32,289,290,292
+#EXTINF:-1,SAT.1 CH
+http://<?=StatusIP?>/?src=1&freq=12051&sr=27500&pol=v&msys=dvbs&pids=0,101,1535,1536,1539
+#EXTINF:-1,SUPER RTL CH
+http://<?=StatusIP?>/?src=1&freq=12188&sr=27500&pol=h&msys=dvbs&pids=0,52,172,145
+#EXTINF:-1,VOX CH
+http://<?=StatusIP?>/?src=1&freq=12227&sr=27500&pol=h&msys=dvbs&pids=0,600,601,602
+#EXTINF:-1,TV5 Monde
+http://<?=StatusIP?>/?src=1&freq=11479&sr=22000&pol=v&msys=dvbs&pids=0,1280,160,80
+#EXTINF:-1,TRT Turk
+http://<?=StatusIP?>/?src=1&freq=11612&sr=22000&pol=h&msys=dvbs&pids=0,45,2011,4004
+#EXTINF:-1,Al Jazeera English
+http://<?=StatusIP?>/?src=1&freq=11508&sr=22000&pol=v&msys=dvbs&pids=0,762,712,732

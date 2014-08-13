@@ -1,0 +1,14 @@
+###########################################################
+## File containing list of modules to load in the system ##
+##                                                       ##
+## Marc Chappellier (c) STMicroElectronics 2008          ##
+###########################################################
+##
+## Syntax is :
+## Mode (29BITS|32BITS|-) | Module file | Node name | Parameters                       | number of devices
+-                            axe_i2c.ko    i2c_drv       -                                    1
+-                            axe_fe.ko     frontend      -                                    1
+-                            axe_fp.ko     fp            -                                    1
+-                            axe_dmx.ko    demux         -                                    4
+-                            axe_dmxts.ko  demux-ts      -                                    4
+

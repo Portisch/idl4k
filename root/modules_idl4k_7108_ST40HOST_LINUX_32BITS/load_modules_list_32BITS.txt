@@ -1,0 +1,33 @@
+###########################################################
+## File containing list of modules to load in the system ##
+##                                                       ##
+###########################################################
+##
+## Syntax is :
+## Mode (29BITS|32BITS|-) | Module file | Node name | Parameters
+-       stos_core.ko            -                   -
+-       stsys_ioctl.ko          stsys_ioctl         -
+-       stcommon_core.ko        -                   -
+-       sttbx_core.ko           -                   -
+-       stbuffer_core.ko        -                   -
+-       stevt_core.ko           -                   -
+-       stclock_core.ko         -                   -
+-       stpio_core.ko           -                   -
+-       stpwm_core.ko           -                   -
+-       sti2c_core.ko           -                   -
+-       stfdma_core.ko          -                   -
+-       stuart_core.ko          -                   -
+-       stmerge_core.ko         -                   -
+-       stpti5_core.ko          -                   -
+-       sttbx_ioctl.ko          sttbx_ioctl         -
+-       stcommon_ioctl.ko       stcommon_ioctl      -
+-       stevt_ioctl.ko          stevt_ioctl         -
+-       stbuffer_ioctl.ko       stbuffer_ioctl      -
+-       stfdma_ioctl.ko         stfdma_ioctl        -
+-       stpio_ioctl.ko          stpio_ioctl         -
+-       stpwm_ioctl.ko          stpwm_ioctl         -
+-       sti2c_ioctl.ko          sti2c_ioctl         -
+-       stuart_ioctl.ko         stuart_ioctl        -
+-       stmerge_ioctl.ko        stmerge_ioctl       -
+-       stnet_ioctl.ko          stnet_ioctl         -
+-       stpti5_ioctl.ko         stpti5_ioctl        -

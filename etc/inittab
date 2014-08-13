@@ -1,0 +1,6 @@
+::sysinit:/etc/init.d/rcSBB
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -r
+::restart:/sbin/init
+::once:/usr/sbin/inetd
+ttyAS0::askfirst:/bin/login

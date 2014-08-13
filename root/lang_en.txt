@@ -1,0 +1,162 @@
+
+Lang=de
+LangEn=<B>En</B>
+LangDe=De
+LangPt=Pt
+
+LoginPassword=Password:
+LoginButton=Login
+LoginFailedHead=[HTTP 403] Client is not authorized to perform requested action
+LoginFailed=You need to use correct password to access this page. The default password is 'admin'.<BR>Make sure that cookies are enabled in your browser. <BR><A HREF="/">Try again.</A>
+
+
+MenuStatus=Status
+MenuAntenna=Antenna
+MenuDLNA=DLNA
+MenuSystem=System
+MenuPVR=PVR
+MenuNet=Network
+MenuM3U=m3u list
+
+
+Save=Save
+Browse=Browse
+Send=Send
+Cancel=Cancel
+Update=Update
+Change=Change
+Disabled=Disabled
+Unknown=Unknown
+active=active
+Yes=Yes
+No=No
+
+PasswordChanged=password has been changed
+PasswordNotMatch=password does not match
+PasswordEmpty=password cannot be empty
+
+
+# Status page
+StatusUUID = Status UUID
+StatusDeviceID = Device ID
+StatusBootID = Boot ID
+StatusConfigID = Config ID
+StatusSN = SN
+StatusMAC = MAC
+StatusIP = IP
+
+StatusAntenne = Antenna settings
+StatusLNB = LNB
+
+StatusDLNA = DLNA
+StatusDLNAActive = Active
+StatusProgListDownload = Download
+
+# Antenne page
+AntenneLNBTyp = LNB&nbsp;Type:
+AntenneLNBTypeQuad = Quad
+AntenneLNBTypeQuattro = Quattro
+AntenneLNBTypeUnicable = Unicable
+AntenneAutoLNBZuw = LNB Auto-setting
+AntenneAutomaticFrontendAlloc = automatic frontend allocation
+AntenneLOFreqs = LO1/LO2 frequency
+AntenneMHZ = MHz
+AntennaLNBInfo = Channel assign:
+AntennaLNB1 = LNB input 1 (channel 0):
+AntennaLNB2 = LNB input 2 (channel 1):
+AntennaLNB3 = LNB input 3 (channel 2):
+AntennaLNB4 = LNB input 4 (channel 3):
+
+
+# DLNA page
+DLNAServer = miniDLNA Server
+DLNAactive = Activate DLNA
+DLNAProgList = DLNA Main TV list
+###DLNARestartReq = Restart required
+
+DLNAProgListInfo = DLNA channel list updated (%d new channels)
+DLNAProgListWrongFile = Wrong file format
+DLNAProgListUploadError = Update of DLNA channel list failed
+
+DLNAUploadFailed = There was an error attempting to upload the file.
+DLNAUploadCanceled = The upload has been canceled by the user or the browser dropped the connection.
+DLNAUploadUnabledToCompute == unable to compute
+
+FavListNew = New
+FavListExport = Export
+FavListImport = Import
+FavListEdit = Edit
+FavListDel = Delete
+FavListLabel = Favorite list(s):
+FavListEditMode = Favorite list edit
+FavListEditMessage1 = - Use the right/left arrow buttons to add/remove channels to/from the favorite list.
+FavListEditMessage2 = - Drag TV channels from the Main TV list to the Favorites list. Dragging a TV channel into the trash bin will deleteit from the list.
+FavListProgListTV = Main TV list
+FavListSortAZ = Sort [A..Z]
+FavListRemoveAll = Delete all
+FavListTrash = Trash bin
+FavListOnlyOne = Cannot create more than 1 favorite lists
+
+# System page
+
+SystemFirmwareUpdate = Online firmware update
+SystemFirmwareVerOnSrv = Firmware version available on the server:
+SystemFirmwareLocalUpdate = Local firmware update
+SystemPasswordChange = Change password
+SystemPasswordNew = New password:
+SystemPasswordNewRep = Retype new password:
+SystemReboot = System restart
+SystemRebootBtn = Restart
+SystemRebootWait = Please wait...
+SystemFirmwareUploadOK = Software update successfully - please wait until the unit restarts...
+SystemFirmwareUploadFailed = Software update failed
+SystemFirmwareWait = Please wait...
+SystemFirmwareWait2 = Software update successfully - please wait until the unit restarts...
+SystemFirmwareFailed = An error occured while uploading file.
+SystemFirmwareCanceled = The upload has been canceled by the user or the browser dropped the connection.
+
+# PVR page
+
+PvrRemoteAccess = Remote Access
+PvrRemoteAccessMethod = Remote Access Method:
+PvrRemoteAccessMethodDropBox = DropBox
+PvrRecordPath = PVR Record Path:
+PvrRecordNoDevice = #No device selected#
+PvrRtspWait = Please wait...
+PvrRtspUploadFailed = An error occured while uploading file.
+PvrRtspUploadCanceled = The upload has been canceled by the user or the browser dropped the connection.
+
+# Network page
+
+NetworkSettings = Network settings
+NetworkDHCP = DHCP:
+NetworkIP = IP:
+NetworkMask = Mask:
+NetworkGateway = Gateway:
+NetworkDNS = DNS:
+NetworkNTP = NTP:
+NetworkHostname = Host name:
+NetworkHostnameTooLong = Hostname max length is 15 characters.
+
+# M3U List page
+
+M3uListUpdate = Local m3U list update
+M3uFile = SAT&gt;IP m3u file:
+M3uLink = m3u file location:
+M3uUploadFailed = M3U file upload failed.
+M3uUploadOK = M3U file loaded.
+
+# RTSP List page
+
+RtspSessionTimeoutSettings = RTSP session timeout settings
+RtspSessionTimeout = Session timeout:
+RtspSessionTimeoutDesc = Changes will be active after restart.
+RtspMulticastSettings = RTSP multicast settings
+RtspMulticastAutoplay = Play multicast playlist on startup
+RtspPlaylistUpdateSettings = Local multicast playlist update
+RtspPlaylistFile = Multicast playlist file
+RtspPlaylistLink = Playlist file location:
+RtspPlaylistWait = Please wait...
+RtspPlaylistUploadOK = Multicast playlist loaded
+RtspPlaylistUploadFailed = Multicast playlist upload failed.
+RtspPlaylistUploadCanceled = The upload has been canceled by the user or the browser dropped the connection.

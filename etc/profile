@@ -1,0 +1,28 @@
+# /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
+# and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
+
+PATH="/usr/local/bin:/usr/bin:/bin"
+if [ "`id -u`" -eq 0 ]; then
+  PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
+fi
+
+
+if [ "$BASH" ]; then
+  PS1='\u@\H:\w\$ '
+else
+  if [ "`id -u`" -eq 0 ]; then
+    PS1='# '
+  else
+    PS1='$ '
+  fi
+fi
+
+export PATH PS1 LD_LIBRARY_PATH=/usr/local/lib
+
+for i in /etc/profile.d/*.sh ; do
+    if [ -r "$i" ]; then
+        . $i
+    fi
+done
+
+umask 022

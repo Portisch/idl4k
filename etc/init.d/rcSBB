@@ -1,0 +1,47 @@
+#!/bin/sh
+echo " >>>> AXE PLATFORM : V1.13.0.105  <<<<"
+#### mount /proc
+mount -t proc proc /proc
+#### mount /sys
+mount -t sysfs sysfs /sys
+#### mount /dev
+mount -t tmpfs mdev /tmp -o size=32k
+cp -a /dev/* /tmp
+chmod $(stat -c %a /dev) /tmp
+chown $(stat -c %u:%g /dev) /tmp
+mount --move /tmp /dev
+#### mount devpts to allow logging in
+mount -t devpts none /dev/pts -o gid=5,mode=620
+#### mount & configure /tmp
+mount -t tmpfs tmpfs /tmp -o size=64k,mode=1777
+#### activate hotplug, populate the device nodes /do hotplug/
+echo /sbin/mdev > /proc/sys/kernel/hotplug
+/sbin/mdev -s
+#### mount shm to use shared memory ipc
+mount -t tmpfs none /dev/shm -o size=1m,mode=330,uid=0,gid=0
+#### mount rw rootfs entries:
+mount -t tmpfs tmpfs /var/run -o size=16k
+mount -t tmpfs tmpfs /var/log -o size=32k
+mount -t tmpfs tmpfs /.rwfs -o size=16k,mode=110,uid=0,gid=0
+#### initialize rw etc
+mkdir -p /.rwfs/etc
+touch /.rwfs/etc/resolv.conf
+#### if configuration
+ip addr add 127.0.0.1 dev lo
+ip link set lo up
+ip link set eth0 up
+route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0
+####
+mkdir -p /mnt/data
+mount -t jffs2 /dev/mtdblock4 /mnt/data/
+mkdir -p /mnt/ramdisk
+mount -t tmpfs tmpfs /mnt/ramdisk -o size=6M
+mkdir /media
+####
+#### start axestartup
+echo "Starting axe services:"
+mknod -m 0777 /tmp/usbdevmon125788 p
+source /root/modules/load_modules.sh
+cd /root
+AXE_API_TYPE=linuxdvb ./main_axe.out < /dev/null > /dev/null &
+echo 'ok'
